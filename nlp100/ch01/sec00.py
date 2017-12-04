@@ -4,12 +4,5 @@
 # http://www.cl.ecei.tohoku.ac.jp/nlp100/#sec00
 
 
-def main():
-    text = 'stressed'
-
-    answer = text[::-1]
-    print(answer)
-
-
-if __name__ == '__main__':
-    main()
+def sec00(text):
+    return text[::-1]
