@@ -6,6 +6,6 @@
 from nlp100.ch01.sec00 import sec00
 
 
-def test_should_return_desserts_when_call_sec00_with_stressed():
+def sec00_should_return_desserts():
     actual = sec00('stressed')
     assert actual == 'desserts'
