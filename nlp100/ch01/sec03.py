@@ -6,12 +6,5 @@
 import re
 
 
-def main():
-    text = 'Now I need a drink, alcoholic of course, after the heavy lectures involving quantum mechanics.'
-
-    answer = [len(w) for w in re.sub(r'[,.]', '', text).split()]
-    print(answer)
-
-
-if __name__ == '__main__':
-    main()
+def sec03(text):
+    return [len(w) for w in re.sub(r'[,.]', '', text).split()]
